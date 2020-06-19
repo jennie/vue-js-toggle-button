@@ -45,8 +45,7 @@ export default {
   name: 'ToggleButton',
   props: {
     value: {
-      type: Boolean,
-      default: false
+      type: String
     },
     name: {
       type: String
